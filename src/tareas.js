@@ -8,6 +8,7 @@ class GestorTareas {
         this.tareas.push({
             tarea: tarea,
             completada: false,
+            hotel: "trivago",
         });
         console.log("Nueva tarea agregada:", tarea);
     }
