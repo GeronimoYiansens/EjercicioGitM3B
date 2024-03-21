@@ -8,7 +8,7 @@ class GestorTareas {
             // Lógica para agregar una nueva tarea
             this.tareas.push({
                 tarea: tarea,
-                completada: false,
+                completada: true,
             });
             console.log("Nueva tarea agregada:", tarea);
         } else {
